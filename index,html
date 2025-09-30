@@ -3,52 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perkenalan Diri Saya</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        h1 {
-            color: #4CAF50;
-        }
-        .instagram-link {
-            color: #E1306C;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .instagram-link:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Perkenalan Diri Keren</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <div class="container">
-        <h1>Halo! Salam Kenal 👋</h1>
-        <p>Nama saya adalah **[NAMA LENGKAP KAMU]**.</p>
-        <p>Saya adalah seorang **[PROFESI/HOBI/STATUS KAMU, contoh: Mahasiswa Teknik Informatika]** yang antusias terhadap **[BIDANG MINAT, contoh: pengembangan web dan kecerdasan buatan]**.</p>
-        <p>Senang terhubung dengan Anda!</p>
-        
-        <h2>Temukan Saya di Instagram</h2>
-        <p>Anda bisa melihat kegiatan saya sehari-hari dan portofolio di Instagram:</p>
-        <p>
-            Akun Instagram: 
-            <a href="https://www.instagram.com/[USERNAME_INSTAGRAM_KAMU]" target="_blank" class="instagram-link">
-                @[USERNAME_INSTAGRAM_KAMU]
-            </a>
+    <div class="card-perkenalan">
+        <h1 class="nama">Halo, Saya [NAMA LENGKAP KAMU] 👋</h1>
+        <p class="deskripsi">
+            Saya seorang **[PROFESI/HOBI KAMU, contoh: Desainer Grafis]** yang bersemangat dalam dunia **[BIDANG MINAT, contoh: UI/UX dan Kopi]**.
         </p>
         
+        <div class="instagram-section">
+            <p>Temukan saya di media sosial:</p>
+            <a href="https://www.instagram.com/devrmnd" target="_blank" class="instagram-link">
+                ➡️ Follow Saya di Instagram: @devrmnd
+            </a>
         </div>
-</body>
+    </div>
+    
+    </body>
 </html>
