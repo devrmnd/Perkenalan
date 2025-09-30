@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perkenalan Diri Keren</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Profil Perkenalan Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <div class="card-perkenalan">
-        <h1 class="nama">Halo, Saya [NAMA LENGKAP KAMU] 👋</h1>
-        <p class="deskripsi">
-            Saya seorang **[PROFESI/HOBI KAMU, contoh: Desainer Grafis]** yang bersemangat dalam dunia **[BIDANG MINAT, contoh: UI/UX dan Kopi]**.
-        </p>
-        
-        <div class="instagram-section">
-            <p>Temukan saya di media sosial:</p>
-            <a href="https://www.instagram.com/devrmnd" target="_blank" class="instagram-link">
-                ➡️ Follow Saya di Instagram: @devrmnd
+        <h1>👋 Halo, Saya [Nama Anda]</h1>
+        <p class="pekerjaan">Seorang Pengembang Web Junior</p>
+        <p>Saya senang dengan dunia teknologi, khususnya dalam membangun antarmuka pengguna yang indah dan fungsional. Mari terhubung!</p>
+
+        <hr>
+
+        <h2>📱 Hubungi Saya</h2>
+
+        <div class="kontak-container">
+            <a href="https://wa.me/6281234567890" target="_blank" class="btn whatsapp">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+
+            <a href="https://www.instagram.com/budisntso" target="_blank" class="btn instagram">
+                <i class="fab fa-instagram"></i> Instagram (@budisntso)
             </a>
         </div>
     </div>
-    
-    </body>
+</body>
 </html>
