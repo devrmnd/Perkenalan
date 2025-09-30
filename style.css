@@ -1,0 +1,66 @@
+/*
+ * FILE: style.css
+ * Berisi styling untuk halaman perkenalan diri
+ */
+
+/* Mengatur latar belakang halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex; /* Untuk menempatkan kartu di tengah */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Styling untuk 'Kartu' perkenalan */
+.card-perkenalan {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 450px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card-perkenalan:hover {
+    transform: translateY(-5px); /* Efek sedikit terangkat saat disentuh mouse */
+}
+
+.nama {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.deskripsi {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Styling untuk bagian Instagram */
+.instagram-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+/* Styling untuk Tautan Instagram */
+.instagram-link {
+    display: inline-block; /* Membuat tautan bisa diatur lebar dan padding-nya */
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #E1306C; /* Warna khas Instagram */
+    color: white;
+    text-decoration: none; /* Menghilangkan garis bawah */
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.instagram-link:hover {
+    background-color: #C135A1; /* Warna berubah saat mouse di atasnya */
+    box-shadow: 0 4px 8px rgba(225, 48, 108, 0.4);
+}
